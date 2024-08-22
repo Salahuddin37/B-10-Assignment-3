@@ -49,12 +49,12 @@
   <body class="font-manrope">
     <!-- !<i class="fa-solid fa-arrow-right text-lg bg-primary-color rounded-full px-1.5 -rotate-45"></i> -->
     <!-- *todo Header Section -->
-    <header class="bg-header-color">
+    <header class="bg-header-color w-full">
       <!-- *todo Navbar Section -->
-      <nav class="md:container lg:container lg:px-20 w-11/12 mx-auto">
+      <nav class="md:container lg:container mx-auto">
         <div class="navbar">
-          <div class="navbar-start right-0">
-            <a class="btn btn-ghost text-3xl font-extrabold px-0 -mr-1">
+          <div class="navbar-start">
+            <a class="btn btn-ghost text-3xl font-extrabold">
               <i
                 class="fa-solid fa-arrow-right text-lg bg-primary-color rounded-full px-1.5 -rotate-45"
               ></i>
@@ -63,7 +63,7 @@
           </div>
 
           <!--!Nav Bar Center Section -->
-          <div class="navbar-center hidden lg:flex lg:pr-32">
+          <div class="navbar-center hidden lg:flex">
             <ul class="menu menu-horizontal px-1 text-base">
               <li class="font-bold text-gray-700"><a>Home</a></li>
               <li class="text-gray-500"><a>Services</a></li>
@@ -73,11 +73,11 @@
             </ul>
             <!--!Nav Bar End Section -->
           </div>
-          <div class="navbar-end">
+          <div class="navbar-end gap-2">
             <!-- Search Bar -->
             <div class="hidden md:block lg:block">
               <div
-                class="w-12 h-12 rounded-full bg-white flex items-center justify-center mr-4 border border-gray-200"
+                class="w-12 h-12 rounded-full bg-white flex items-center justify-center border border-gray-200"
               >
                 <i class="fa-solid fa-magnifying-glass text-2xl"></i>
               </div>
@@ -85,7 +85,7 @@
             <!-- Shopping Cart -->
             <div class="hidden md:block lg:block">
               <div
-                class="w-12 h-12 rounded-full bg-white flex items-center justify-center mr-4 border border-gray-200"
+                class="w-12 h-12 rounded-full bg-white flex items-center justify-center border border-gray-200"
               >
                 <i class="fa-solid fa-cart-shopping text-2xl"></i>
               </div>
@@ -110,21 +110,52 @@
               >
                 <i class="fa-solid fa-bars text-xl"></i>
               </div>
-              <ul
+              <!-- <ul
                 tabindex="0"
-                class="menu menu-sm md:hidden dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow text-md right-0"
+                class="menu menu-sm md:hidden dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow text-md"
               >
                 <li class="font-bold"><a>Home</a></li>
                 <li class="text-gray-500"><a>Services</a></li>
                 <li class="text-gray-500"><a>Portfolio</a></li>
                 <li class="text-gray-500"><a>Blogs</a></li>
                 <li class="text-gray-500"><a>Contact Us</a></li>
-              </ul>
+              </ul> -->
             </div>
           </div>
         </div>
       </nav>
       <!-- *todo Banner Section -->
+      <section class="md:container lg:container mx-auto pb-20">
+        <!-- parent -->
+        <div class="">
+          <!-- picture content -->
+          <div class="flex justify-center my-10 w-[65%] h-auto mx-auto">
+            <img class="object-cover" src="./assets/banner.png" alt="" />
+          </div>
+          <!-- text and button content -->
+          <div
+            class="text-center space-y-10 w-[95%] md:w-[90%] lg:w-[90%] mx-auto"
+          >
+            <h1
+              class="font-extrabold 2xl:text-7xl xl:text-6xl md:text-5xl text-4xl px-5"
+            >
+              A barn house of this design has a striking appearance
+            </h1>
+            <p class="text-gray-500 w-[95%] md:w-[80%] lg:w-[80%] mx-auto">
+              The barn house captivates with its blend of rustic charm and
+              modern sophistication, featuring weathered wood, sleek metal
+              accents, and large windows that flood the space with natural
+              light.
+            </p>
+            <div class="btn bg-lime-200 font-bold text-lg rounded-full">
+              <a>View Details</a
+              ><i
+                class="fa-solid fa-arrow-right text-lg bg-primary-color rounded-full px-1.5 -rotate-45"
+              ></i>
+            </div>
+          </div>
+        </div>
+      </section>
     </header>
     <!-- *todo Main Section -->
     <main></main>
