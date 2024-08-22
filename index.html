@@ -39,7 +39,7 @@
             colors: {
               clifford: "#da373d",
               "primary-color": "#ABEF5F",
-              "primary-arraw": "",
+              "header-color": "#f7f7f7",
             },
           },
         },
@@ -49,9 +49,81 @@
   <body class="font-manrope">
     <!-- !<i class="fa-solid fa-arrow-right text-lg bg-primary-color rounded-full px-1.5 -rotate-45"></i> -->
     <!-- *todo Header Section -->
-    <header>
+    <header class="bg-header-color">
       <!-- *todo Navbar Section -->
-      <nav></nav>
+      <nav class="md:container lg:container lg:px-20 w-11/12 mx-auto">
+        <div class="navbar">
+          <div class="navbar-start right-0">
+            <a class="btn btn-ghost text-3xl font-extrabold px-0 -mr-1">
+              <i
+                class="fa-solid fa-arrow-right text-lg bg-primary-color rounded-full px-1.5 -rotate-45"
+              ></i>
+              Rinterio</a
+            >
+          </div>
+
+          <!--!Nav Bar Center Section -->
+          <div class="navbar-center hidden lg:flex lg:pr-32">
+            <ul class="menu menu-horizontal px-1 text-base">
+              <li class="font-bold text-gray-700"><a>Home</a></li>
+              <li class="text-gray-500"><a>Services</a></li>
+              <li class="text-gray-500"><a>Portfolio</a></li>
+              <li class="text-gray-500"><a>Blogs</a></li>
+              <li class="text-gray-500"><a>Contact Us</a></li>
+            </ul>
+            <!--!Nav Bar End Section -->
+          </div>
+          <div class="navbar-end">
+            <!-- Search Bar -->
+            <div class="hidden md:block lg:block">
+              <div
+                class="w-12 h-12 rounded-full bg-white flex items-center justify-center mr-4 border border-gray-200"
+              >
+                <i class="fa-solid fa-magnifying-glass text-2xl"></i>
+              </div>
+            </div>
+            <!-- Shopping Cart -->
+            <div class="hidden md:block lg:block">
+              <div
+                class="w-12 h-12 rounded-full bg-white flex items-center justify-center mr-4 border border-gray-200"
+              >
+                <i class="fa-solid fa-cart-shopping text-2xl"></i>
+              </div>
+            </div>
+
+            <!-- Button Content -->
+            <div class="hidden md:block lg:block">
+              <a
+                class="btn bg-primary-color font-extrabold lg:text-xl md:w-52 rounded-full"
+                >Book Consult
+                <i
+                  class="fa-solid fa-arrow-right text-lg bg-black text-white rounded-full px-1.5 -rotate-45"
+                ></i>
+              </a>
+            </div>
+            <!-- hamburg start -->
+            <div class="dropdown">
+              <div
+                tabindex="0"
+                role="button"
+                class="btn btn-ghost lg:hidden w-12 h-11 rounded-full bg-white flex items-center justify-center border border-gray-200"
+              >
+                <i class="fa-solid fa-bars text-xl"></i>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm md:hidden dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow text-md right-0"
+              >
+                <li class="font-bold"><a>Home</a></li>
+                <li class="text-gray-500"><a>Services</a></li>
+                <li class="text-gray-500"><a>Portfolio</a></li>
+                <li class="text-gray-500"><a>Blogs</a></li>
+                <li class="text-gray-500"><a>Contact Us</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
       <!-- *todo Banner Section -->
     </header>
     <!-- *todo Main Section -->
