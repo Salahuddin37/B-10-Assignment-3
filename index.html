@@ -45,6 +45,8 @@
               "color-plate-3": "#a4dac3",
               "color-plate-4": "#77aaea",
               "btn-color": "#e5f3d6",
+              "footer-color": "#1c1c1c",
+              "second-btn": "#d4f6ae",
             },
           },
         },
@@ -152,11 +154,14 @@
               accents, and large windows that flood the space with natural
               light.
             </p>
-            <div class="btn bg-lime-200 font-bold text-lg rounded-full">
-              <a>View Details</a
-              ><i
-                class="fa-solid fa-arrow-right text-lg bg-primary-color rounded-full px-1.5 -rotate-45"
-              ></i>
+            <div class="text-center">
+              <a
+                class="btn bg-second-btn font-extrabold lg:text-xl md:w-52 lg:w-52 w-[95%] rounded-full border-none"
+                >View Details
+                <i
+                  class="fa-solid fa-arrow-right text-lg bg-primary-color rounded-full px-1.5 -rotate-45"
+                ></i>
+              </a>
             </div>
           </div>
         </div>
@@ -595,6 +600,47 @@
       </section>
     </main>
     <!-- *todo Footer Section -->
-    <footer></footer>
+    <footer class="bg-footer-color">
+      <div class="w-[90%] md:container lg:container mx-auto py-16">
+        <div>
+          <div class="space-y-6 pb-6">
+            <div class="navbar-start text-center w-[90%] mx-auto">
+              <a class="btn btn-ghost text-3xl font-extrabold">
+                <i
+                  class="fa-solid fa-arrow-right text-lg bg-primary-color rounded-full px-1.5 -rotate-45"
+                ></i>
+                <span class="text-white">Rinterio</span></a
+              >
+            </div>
+
+            <p class="text-center md:px-5 lg:px-32 text-gray-500">
+              The barn house captivates with its blend of rustic charm and
+              modern sophistication, featuring weathered wood, sleek metal
+              accents.
+            </p>
+            <div>
+              <div
+                class="text-white w-[90%] mx-auto md:flex lg:flex justify-center gap-20 text-center space-y-3"
+              >
+                <p>Home</p>
+                <p>Services</p>
+                <p>Portfolio</p>
+                <p>Blogs</p>
+                <p>Contact Us</p>
+              </div>
+            </div>
+            <div class="text-center">
+              <a
+                class="btn bg-primary-color font-extrabold lg:text-xl md:w-52 lg:w-52 w-[95%] rounded-full border-none"
+                >Book Consult
+                <i
+                  class="fa-solid fa-arrow-right text-lg bg-black text-white rounded-full px-1.5 -rotate-45"
+                ></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
